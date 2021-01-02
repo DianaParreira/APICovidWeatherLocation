@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Meteorologia e Covid-19</title>
+    <script src='index2.js'></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+<body>
+
+
+    <div class="topnav">
+
+    <a href="" onclick="mostrar(this);"  id="mostra1">Localizacao</a>
+    <a href="#metereologia" id="mostrarMetereologia"> Meteorologia</a>
+    <a href="#pesquisa"  id="mostrarPesquisa">Pesquisa Meteorologia</a>
+    <a href="#covid"  id="covid">Covid</a>
+    <a href="#covidPro"  id="pesquisacovid">Pesquisa Covid</a>
+</div>
+
+
+<div id="container">
+
+<div id="localizacao"><b>Localizacao</b>
+    <br>
+    <br>
+<div id="localidade"> <b>Localidade: </b></div>
+    <div id="conselho"><b>Conselho:</b> </div>
+    <div id="paisatual"><b>País:</b> </div>
+    <div id="latitude"><b>Latitude:</b> </div>
+    <div id="longitude"><b>Longitude:</b> </div>
+    <div id="simbolo"><b>Moeda Oficial:</b> </div>
+
+    <img src="location.jpg"width="300" height="250">
+
+</div>
+
+<div id="metereologia" class="hidden"><b>Metereologia</b>
+    <br>
+    <br>
+
+<div id="nome"><b>Regiao: </b></div><br>
+<div id="pais"><b>País:</b></div><br>
+<div id="localtime"><b>Hora Local:</b> </div><br>
+<div id="nuvens"><b>Ceu </div><br>
+<div id="tempo"><b>Temperatura:</b> </div><br>
+<div id="last_updated"><b>Atualizado ás:</b></div>
+<div id="temperatura"><b>Temperatura:</b> </div><br>
+<div id="velVento"><b>Velocidade do Vento:</b> </div><br>
+<div id="gust_kph"><b>Rajada Máxima:</b> </div><br>
+<div id="posChuva"><b>Chuva:</b> </div><br>
+<div id="humidade"><b>Humidade:</b> </div><br>
+<div id="sentem"><b>Sensacao Termica:</b> </div><br>
+<div id="visibilidade"><b>Visibilidade:</b> </div><br>
+
+</div>
+
+
+<div id="barraProcura" class="hidden">
+    
+    
+    <b>Pesquisa</b>
+
+   
+    <input id="procura" type="text" width="20"/>
+
+
+    <button id="botaoProcura">Pesquisar Meteorologia</button>
+    
+</div>
+
+<br>
+<br>
+
+<div id="situacaocovid" class="hidden"><b>Situação Covid</b> 
+    <br>
+    <br>
+<div id="oPais">Pais: </div>
+<div id="aPopulacao">População: </div>
+<div id="data">Data: </div>
+<div id="nInfetados">Número de Infetados: </div>
+<div id="nObitos">Número Total de Obitos:</div>
+<div id="nDiarioMortos">Mortes nas últimas 24 horas: </div>
+<div id="nNovosCasos">Novos Casos: </div>
+<div id="nRecuperados">Numero Total de Recuperados:</div>
+<div id="casosAtivos">Casos Ativos</div>
+
+</div>
+
+<br>
+<br>
+<div id="covidPro" class="hidden"><b>Pesquisar Situação Covid</b><br>
+    <input id="procuraCovid" type="text" width="20" />
+    <button id="botaocovid">Pesquisar</button>
+</div>
+
+</div>
+</div>
+</body>
+
+  
+</html>

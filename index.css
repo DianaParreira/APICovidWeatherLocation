@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: rgb(119,198,203);
+    background: linear-gradient(90deg, rgba(119,198,203,1) 0%, rgba(11,68,124,1) 43%, rgba(102,120,125,1) 92%);
+}
+
+
+#container{
+
+width: 1400px;
+height: 800px;
+    
+}
+
+.topnav {
+    overflow: hidden;
+    background: rgb(119,198,203);
+background: linear-gradient(90deg, rgba(119,198,203,1) 0%, rgba(11,68,124,1) 43%, rgba(102,120,125,1) 92%);
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background: rgb(53,120,233);
+background: rgba(11,13,43,1) 44%;
+}
+
+.topnav a.active {
+    background-color: deepskyblue;
+    color: white;
+}
+
+#cabecalho{
+    display: block;
+
+    position: relative;
+
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.hidden{
+    display: none;
+}
+
+
+#localizacao{
+    width: 400px;
+    height: 455px;
+    
+    float: left;
+    
+}
+
+#metereologia{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    float: left;
+    
+    
+}
+
+#barraProcura{
+    width: 500px;
+    height: 500px;
+        float: left;
+        
+}
+
+#situacaocovid{
+    width: 600px;
+    height: 200px;
+     position: relative;
+    float: left;
+    
+}
+
+#covidPro{
+    width: 600px;
+    height: 100px;
+        float: left;
+        position: relative;
+        
+}
+
